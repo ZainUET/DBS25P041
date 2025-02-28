@@ -1,0 +1,20 @@
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.exe
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.deps.json
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.runtimeconfig.json
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.GenerateResource.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfoInputs.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfo.cs
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.CoreCompileInputs.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\refint\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.genruntimeconfig.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\ref\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.forgotPassword.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Login.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Register.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Properties.Resources.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.DepartmentHead.resources
