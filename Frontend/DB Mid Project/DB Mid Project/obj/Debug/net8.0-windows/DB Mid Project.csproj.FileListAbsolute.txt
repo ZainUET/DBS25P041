@@ -1,0 +1,44 @@
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.exe
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.deps.json
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.runtimeconfig.json
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.GenerateResource.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfoInputs.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfo.cs
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.CoreCompileInputs.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\refint\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.genruntimeconfig.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\ref\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.forgotPassword.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Login.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Register.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Properties.Resources.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.DepartmentHead.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project..resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.AdmStaff.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.FacultyManagement.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.FacultyMember.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.WorkloadAssignment.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.AssemblyReference.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid P.CA866A07.Up2Date
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Dashboard.resources
