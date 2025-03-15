@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="UI\Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Faculty Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Faculty Member.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Workload Assignment .cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
