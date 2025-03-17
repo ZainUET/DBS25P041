@@ -17,25 +17,36 @@ namespace DB_Mid_Project
 
         private void Login_Load(object sender, EventArgs e)
         {
-            LoadRoles(); // Populate the Role dropdown
+            LoadRoles();
         }
 
         private void linkLabel2_Click(object sender, EventArgs e)
         {
-            // Redirect to Register Form
-            Register registerForm = new Register();
-            registerForm.Show();
-            this.Hide();
+            try
+            {
+                Register registerForm = new Register();
+                registerForm.Show();  
+                this.Hide();          
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred while opening the Register form: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void linkLabel1_Click(object sender, EventArgs e)
         {
-            // Redirect to Forgot Password Form
-            forgotPassword forgotPasswordForm = new forgotPassword();
-            forgotPasswordForm.Show();
-            this.Hide();
+            try
+            {
+                forgotPassword forgotPasswordForm = new forgotPassword();
+                forgotPasswordForm.Show();  
+                this.Hide();              
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred while opening the Forgot Password form: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
-
         private void role_Enter(object sender, EventArgs e)
         {
             labelPlaceholder.Visible = false;
@@ -56,9 +67,8 @@ namespace DB_Mid_Project
             {
                 string username = textBox1.Text.Trim();
                 string password = textBox2.Text.Trim();
-                string selectedRole = role.SelectedItem?.ToString(); // Get the selected role
+                string selectedRole = role.SelectedItem?.ToString();  
 
-                // Validate inputs
                 if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
                 {
                     MessageBox.Show("Username and Password are required!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -71,7 +81,6 @@ namespace DB_Mid_Project
                     return;
                 }
 
-                // Get the role_id from the lookup table
                 int roleId = GetRoleId(selectedRole);
                 if (roleId == -1)
                 {
@@ -79,11 +88,9 @@ namespace DB_Mid_Project
                     return;
                 }
 
-                // Authenticate the user
                 if (AuthenticateUser(username, password, roleId))
                 {
                     MessageBox.Show("Login Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    // Redirect to the appropriate dashboard based on the role
                     RedirectToDashboard(roleId);
                 }
                 else
@@ -116,7 +123,7 @@ namespace DB_Mid_Project
                     }
                 }
             }
-            return false; // Authentication failed
+            return false; 
         }
 
         private int GetRoleId(string roleName)
@@ -139,15 +146,12 @@ namespace DB_Mid_Project
             switch (role)
             {
                 case "Admin":
-                    // Open Admin Dashboard
                     MessageBox.Show("Redirecting to Admin Dashboard.");
                     break;
                 case "Department Head":
-                    // Open Department Head Dashboard
                     MessageBox.Show("Redirecting to Department Head Dashboard.");
                     break;
                 case "Faculty":
-                    // Open Faculty Dashboard
                     MessageBox.Show("Redirecting to Faculty Dashboard.");
                     break;
                 default:

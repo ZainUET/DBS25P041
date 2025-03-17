@@ -123,6 +123,7 @@
             linkLabel2.TabIndex = 11;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "\r\n\r\n               \r\n\r\n\r\n            Course\r\n       Management";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
             // linkLabel3
             // 
@@ -137,6 +138,7 @@
             linkLabel3.TabIndex = 12;
             linkLabel3.TabStop = true;
             linkLabel3.Text = "\r\n\r\n               \r\n\r\n\r\n            Room\r\n        Allocation\r\n";
+            linkLabel3.LinkClicked += linkLabel3_LinkClicked;
             // 
             // label4
             // 
@@ -185,6 +187,7 @@
             linkLabel7.TabIndex = 19;
             linkLabel7.TabStop = true;
             linkLabel7.Text = "\r\n\r\n               \r\n\r\n\r\n            Faculty\r\n       Management";
+            linkLabel7.LinkClicked += linkLabel7_LinkClicked;
             // 
             // linkLabel1
             // 
@@ -199,6 +202,7 @@
             linkLabel1.TabIndex = 20;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "\r\n\r\n               \r\n\r\n\r\n         Workload\r\n       Assignment";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // linkLabel8
             // 
@@ -213,6 +217,7 @@
             linkLabel8.TabIndex = 21;
             linkLabel8.TabStop = true;
             linkLabel8.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n          Requests\r\n        ";
+            linkLabel8.LinkClicked += linkLabel8_LinkClicked;
             // 
             // linkLabel9
             // 
@@ -227,6 +232,7 @@
             linkLabel9.TabIndex = 22;
             linkLabel9.TabStop = true;
             linkLabel9.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n          Reports\r\n       ";
+            linkLabel9.LinkClicked += linkLabel9_LinkClicked;
             // 
             // label2
             // 
@@ -244,7 +250,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.AliceBlue;
             label3.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label3.Location = new Point(968, 527);
+            label3.Location = new Point(973, 514);
             label3.Name = "label3";
             label3.Size = new Size(77, 54);
             label3.TabIndex = 24;

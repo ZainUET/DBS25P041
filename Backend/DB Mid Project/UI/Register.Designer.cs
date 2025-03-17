@@ -93,9 +93,9 @@
             label5.Font = new Font("Segoe UI", 12F);
             label5.Location = new Point(28, 161);
             label5.Name = "label5";
-            label5.Size = new Size(30, 21);
+            label5.Size = new Size(32, 21);
             label5.TabIndex = 18;
-            label5.Text = "🗝";
+            label5.Text = "🔐";
             // 
             // labelPlaceholder
             // 

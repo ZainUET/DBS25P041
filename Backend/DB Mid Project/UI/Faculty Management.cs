@@ -21,5 +21,10 @@ namespace DB_Mid_Project
         {
 
         }
+
+        private void addmember_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }

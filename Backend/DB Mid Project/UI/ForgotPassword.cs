@@ -17,14 +17,13 @@ namespace DB_Mid_Project
 
         private bool IsValidEmail(string email)
         {
-            // Simple email validation using regex
+             
             string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, pattern);
         }
 
         private bool IsPasswordStrong(string password)
         {
-            // Password must be at least 8 characters long and include uppercase, lowercase, and numbers
             return password.Length >= 8 &&
                    Regex.IsMatch(password, "[A-Z]") &&
                    Regex.IsMatch(password, "[a-z]") &&
@@ -62,10 +61,17 @@ namespace DB_Mid_Project
 
         private void linkLabel1_Click(object sender, EventArgs e)
         {
-            // Redirect to Login Form
-            Login loginForm = new Login();
-            loginForm.Show();
-            this.Hide();
+            try
+            {
+                Login loginForm = new Login();
+                loginForm.Show();  
+                this.Hide();       
+            }
+            catch (Exception ex)
+            {
+                
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void reset_Click(object sender, EventArgs e)
@@ -74,7 +80,7 @@ namespace DB_Mid_Project
             string newPassword = textBox2.Text.Trim();
             string confirmPassword = textBox1.Text.Trim();
 
-            // Validate inputs
+            
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(newPassword) || string.IsNullOrEmpty(confirmPassword))
             {
                 MessageBox.Show("All fields are required!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -99,17 +105,14 @@ namespace DB_Mid_Project
                 return;
             }
 
-            // Check if the email exists in the database
             if (!IsEmailExists(email))
             {
                 MessageBox.Show("Email does not exist in our records!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // Hash the new password using BCrypt
             string passwordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
 
-            // Update the password in the database
             if (ResetPassword(email, passwordHash))
             {
                 MessageBox.Show("Password reset successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);

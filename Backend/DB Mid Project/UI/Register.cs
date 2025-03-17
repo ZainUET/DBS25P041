@@ -18,15 +18,21 @@ namespace DB_Mid_Project
 
         private void Register_Load(object sender, EventArgs e)
         {
-            LoadRoles(); // Populate the Role dropdown
+            LoadRoles();  
         }
 
         private void linkLabel1_Click(object sender, EventArgs e)
         {
-            // Redirect to Login Form
-            Login loginForm = new Login();
-            loginForm.Show();
-            this.Hide();
+            try
+            {
+                Login loginForm = new Login();
+                loginForm.Show();  
+                this.Hide();       
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred while opening the Login form: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
 
@@ -51,9 +57,8 @@ namespace DB_Mid_Project
             string email = textBox3.Text.Trim();
             string password = textBox2.Text.Trim();
             string confirmPassword = textBox4.Text.Trim();
-            string selectedRole = Role.SelectedItem?.ToString(); // Get the selected role
+            string selectedRole = Role.SelectedItem?.ToString();  
 
-            // Validate inputs
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(email) ||
                 string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirmPassword))
             {
@@ -85,17 +90,14 @@ namespace DB_Mid_Project
                 return;
             }
 
-            // Check if the user already exists
             if (IsUserExists(username, email))
             {
                 MessageBox.Show("Username or Email already exists!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // Hash the password using BCrypt
             string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
 
-            // Get the role_id from the lookup table
             int roleId = GetRoleId(selectedRole);
             if (roleId == -1)
             {
@@ -103,7 +105,6 @@ namespace DB_Mid_Project
                 return;
             }
 
-            // Insert into the database
             if (RegisterUser(username, email, passwordHash, roleId))
             {
                 MessageBox.Show("Registration Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -117,14 +118,12 @@ namespace DB_Mid_Project
 
         private bool IsValidEmail(string email)
         {
-            // Simple email validation using regex
             string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, pattern);
         }
 
         private bool IsPasswordStrong(string password)
         {
-            // Password must be at least 8 characters long and include uppercase, lowercase, and numbers
             return password.Length >= 8 &&
                    Regex.IsMatch(password, "[A-Z]") &&
                    Regex.IsMatch(password, "[a-z]") &&

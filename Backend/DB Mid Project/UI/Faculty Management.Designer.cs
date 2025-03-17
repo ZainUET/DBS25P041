@@ -30,18 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FacultyManagement));
             panel1 = new Panel();
-            linkLabel5 = new LinkLabel();
-            linkLabel4 = new LinkLabel();
-            linkLabel3 = new LinkLabel();
-            linkLabel2 = new LinkLabel();
-            linkLabel1 = new LinkLabel();
             H1 = new Label();
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
             label6 = new Label();
             pictureBox2 = new PictureBox();
-            panel3 = new Panel();
-            panel1.SuspendLayout();
+            addmember = new LinkLabel();
+            removemember = new LinkLabel();
+            updatemember = new LinkLabel();
+            Home = new LinkLabel();
+            logout = new LinkLabel();
+            label2 = new Label();
+            label1 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -50,97 +53,20 @@
             // panel1
             // 
             panel1.BackColor = Color.AliceBlue;
-            panel1.Controls.Add(linkLabel5);
-            panel1.Controls.Add(linkLabel4);
-            panel1.Controls.Add(linkLabel3);
-            panel1.Controls.Add(linkLabel2);
-            panel1.Controls.Add(linkLabel1);
-            panel1.Controls.Add(H1);
             panel1.Location = new Point(0, 132);
             panel1.Name = "panel1";
-            panel1.Size = new Size(299, 597);
+            panel1.Size = new Size(175, 597);
             panel1.TabIndex = 0;
-            // 
-            // linkLabel5
-            // 
-            linkLabel5.AutoSize = true;
-            linkLabel5.Font = new Font("Arial Rounded MT Bold", 17.25F);
-            linkLabel5.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkLabel5.LinkColor = SystemColors.MenuHighlight;
-            linkLabel5.Location = new Point(97, 433);
-            linkLabel5.Name = "linkLabel5";
-            linkLabel5.Size = new Size(100, 27);
-            linkLabel5.TabIndex = 1;
-            linkLabel5.TabStop = true;
-            linkLabel5.Text = "Log Out";
-            // 
-            // linkLabel4
-            // 
-            linkLabel4.AutoSize = true;
-            linkLabel4.BorderStyle = BorderStyle.Fixed3D;
-            linkLabel4.Font = new Font("Arial Rounded MT Bold", 17.25F);
-            linkLabel4.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkLabel4.LinkColor = Color.Black;
-            linkLabel4.Location = new Point(51, 357);
-            linkLabel4.Name = "linkLabel4";
-            linkLabel4.Size = new Size(215, 29);
-            linkLabel4.TabIndex = 5;
-            linkLabel4.TabStop = true;
-            linkLabel4.Text = "Update A Member";
-            // 
-            // linkLabel3
-            // 
-            linkLabel3.AutoSize = true;
-            linkLabel3.BorderStyle = BorderStyle.Fixed3D;
-            linkLabel3.Font = new Font("Arial Rounded MT Bold", 17.25F);
-            linkLabel3.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkLabel3.LinkColor = Color.Black;
-            linkLabel3.Location = new Point(51, 283);
-            linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(207, 29);
-            linkLabel3.TabIndex = 4;
-            linkLabel3.TabStop = true;
-            linkLabel3.Text = "Delete A Member";
-            // 
-            // linkLabel2
-            // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.BorderStyle = BorderStyle.Fixed3D;
-            linkLabel2.Cursor = Cursors.Hand;
-            linkLabel2.Font = new Font("Arial Rounded MT Bold", 17.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            linkLabel2.LinkBehavior = LinkBehavior.HoverUnderline;
-            linkLabel2.LinkColor = Color.Black;
-            linkLabel2.Location = new Point(51, 220);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(179, 29);
-            linkLabel2.TabIndex = 3;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "Add A Member";
-            // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.BorderStyle = BorderStyle.Fixed3D;
-            linkLabel1.Cursor = Cursors.Hand;
-            linkLabel1.Font = new Font("Arial Rounded MT Bold", 17.25F);
-            linkLabel1.LinkBehavior = LinkBehavior.HoverUnderline;
-            linkLabel1.LinkColor = Color.Black;
-            linkLabel1.Location = new Point(51, 154);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(79, 29);
-            linkLabel1.TabIndex = 2;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Home";
             // 
             // H1
             // 
             H1.AutoSize = true;
             H1.Font = new Font("Arial Rounded MT Bold", 24.75F, FontStyle.Italic);
-            H1.Location = new Point(37, 32);
+            H1.Location = new Point(594, 180);
             H1.Name = "H1";
-            H1.Size = new Size(226, 76);
+            H1.Size = new Size(353, 38);
             H1.TabIndex = 1;
-            H1.Text = "Faculty \r\nManagement";
+            H1.Text = "Faculty Management";
             // 
             // panel2
             // 
@@ -183,12 +109,131 @@
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
-            // panel3
+            // addmember
             // 
-            panel3.Location = new Point(474, 275);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(406, 243);
-            panel3.TabIndex = 8;
+            addmember.BackColor = Color.AliceBlue;
+            addmember.Cursor = Cursors.Hand;
+            addmember.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            addmember.LinkBehavior = LinkBehavior.NeverUnderline;
+            addmember.LinkColor = Color.Black;
+            addmember.Location = new Point(446, 299);
+            addmember.Name = "addmember";
+            addmember.Size = new Size(147, 131);
+            addmember.TabIndex = 20;
+            addmember.TabStop = true;
+            addmember.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n              Add\r\n           ";
+            addmember.LinkClicked += addmember_LinkClicked;
+            // 
+            // removemember
+            // 
+            removemember.BackColor = Color.AliceBlue;
+            removemember.Cursor = Cursors.Hand;
+            removemember.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            removemember.LinkBehavior = LinkBehavior.NeverUnderline;
+            removemember.LinkColor = Color.Black;
+            removemember.Location = new Point(688, 299);
+            removemember.Name = "removemember";
+            removemember.Size = new Size(147, 131);
+            removemember.TabIndex = 21;
+            removemember.TabStop = true;
+            removemember.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n          Remove\r\n            ";
+            // 
+            // updatemember
+            // 
+            updatemember.BackColor = Color.AliceBlue;
+            updatemember.Cursor = Cursors.Hand;
+            updatemember.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            updatemember.LinkBehavior = LinkBehavior.NeverUnderline;
+            updatemember.LinkColor = Color.Black;
+            updatemember.Location = new Point(953, 299);
+            updatemember.Name = "updatemember";
+            updatemember.Size = new Size(147, 131);
+            updatemember.TabIndex = 22;
+            updatemember.TabStop = true;
+            updatemember.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n          Update\r\n\r\n            ";
+            // 
+            // Home
+            // 
+            Home.BackColor = Color.AliceBlue;
+            Home.Cursor = Cursors.Hand;
+            Home.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            Home.LinkBehavior = LinkBehavior.NeverUnderline;
+            Home.LinkColor = Color.Black;
+            Home.Location = new Point(565, 482);
+            Home.Name = "Home";
+            Home.Size = new Size(147, 131);
+            Home.TabIndex = 23;
+            Home.TabStop = true;
+            Home.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n            Home\r\n\r\n            ";
+            // 
+            // logout
+            // 
+            logout.BackColor = Color.AliceBlue;
+            logout.Cursor = Cursors.Hand;
+            logout.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            logout.LinkBehavior = LinkBehavior.NeverUnderline;
+            logout.LinkColor = Color.Black;
+            logout.Location = new Point(830, 482);
+            logout.Name = "logout";
+            logout.Size = new Size(147, 131);
+            logout.TabIndex = 24;
+            logout.TabStop = true;
+            logout.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n          Log Out\r\n\r\n            ";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.AliceBlue;
+            label2.Font = new Font("Arial Rounded MT Bold", 35.25F);
+            label2.Location = new Point(482, 335);
+            label2.Name = "label2";
+            label2.Size = new Size(77, 54);
+            label2.TabIndex = 25;
+            label2.Text = "🙋🏻‍♂️";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.AliceBlue;
+            label1.Font = new Font("Arial Rounded MT Bold", 35.25F);
+            label1.Location = new Point(863, 521);
+            label1.Name = "label1";
+            label1.Size = new Size(67, 54);
+            label1.TabIndex = 26;
+            label1.Text = "🏃";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.AliceBlue;
+            label3.Font = new Font("Arial Rounded MT Bold", 35.25F);
+            label3.Location = new Point(603, 521);
+            label3.Name = "label3";
+            label3.Size = new Size(71, 54);
+            label3.TabIndex = 27;
+            label3.Text = "🏠︎";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.AliceBlue;
+            label4.Font = new Font("Arial Rounded MT Bold", 35.25F);
+            label4.Location = new Point(724, 335);
+            label4.Name = "label4";
+            label4.Size = new Size(77, 54);
+            label4.TabIndex = 28;
+            label4.Text = "➖";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.AliceBlue;
+            label5.Font = new Font("Arial Rounded MT Bold", 35.25F);
+            label5.Location = new Point(986, 335);
+            label5.Name = "label5";
+            label5.Size = new Size(77, 54);
+            label5.TabIndex = 29;
+            label5.Text = "🛠️";
             // 
             // FacultyManagement
             // 
@@ -197,33 +242,46 @@
             BackColor = Color.White;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1350, 729);
-            Controls.Add(panel3);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label1);
+            Controls.Add(label2);
+            Controls.Add(logout);
+            Controls.Add(Home);
+            Controls.Add(updatemember);
+            Controls.Add(removemember);
+            Controls.Add(addmember);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            Controls.Add(H1);
             Name = "FacultyManagement";
-            Text = "Department Head";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Text = "Faculty";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Panel panel1;
         private Label H1;
-        private LinkLabel linkLabel4;
-        private LinkLabel linkLabel3;
-        private LinkLabel linkLabel2;
-        private LinkLabel linkLabel1;
-        private LinkLabel linkLabel5;
         private Panel panel2;
         private PictureBox pictureBox1;
         private Label label6;
         private PictureBox pictureBox2;
-        private Panel panel3;
+        private LinkLabel addmember;
+        private LinkLabel removemember;
+        private LinkLabel updatemember;
+        private LinkLabel Home;
+        private LinkLabel logout;
+        private Label label2;
+        private Label label1;
+        private Label label3;
+        private Label label4;
+        private Label label5;
     }
 }
