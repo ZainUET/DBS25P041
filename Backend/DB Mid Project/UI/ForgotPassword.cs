@@ -17,7 +17,7 @@ namespace DB_Mid_Project
 
         private bool IsValidEmail(string email)
         {
-             
+
             string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
             return Regex.IsMatch(email, pattern);
         }
@@ -70,7 +70,7 @@ namespace DB_Mid_Project
             }
             catch (Exception ex)
             {
-                
+
                 MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -81,7 +81,7 @@ namespace DB_Mid_Project
             string newPassword = textBox2.Text.Trim();
             string confirmPassword = textBox1.Text.Trim();
 
-            
+
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(newPassword) || string.IsNullOrEmpty(confirmPassword))
             {
                 MessageBox.Show("All fields are required!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -117,12 +117,23 @@ namespace DB_Mid_Project
             if (ResetPassword(email, passwordHash))
             {
                 MessageBox.Show("Password reset successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Login loginForm = new Login();
+                this.Hide();
+                loginForm.ShowDialog();
                 this.Close();
             }
             else
             {
                 MessageBox.Show("Failed to reset password. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Login loginForm = new Login();
+            this.Hide();
+            loginForm.ShowDialog();
+            this.Close();
         }
     }
 }

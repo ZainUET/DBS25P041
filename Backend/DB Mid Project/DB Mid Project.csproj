@@ -15,11 +15,24 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="UI\Faculty Management.cs" />
-    <Compile Update="UI\Login.cs" />
-    <Compile Update="UI\ForgotPassword.cs">
+    <Compile Update="UI\ShowRooms.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UI\UpdateRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\AddRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RemoveRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RoomManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Faculty Management.cs" />
+    <Compile Update="UI\Login.cs" />
+    <Compile Update="UI\ForgotPassword.cs" />
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -32,10 +45,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="BL\" />
   </ItemGroup>
 
 </Project>

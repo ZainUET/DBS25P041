@@ -1,57 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Data;
+using DB_Mid_Project.BL;
 using DB_Mid_Project.DL;
-using MySql.Data.MySqlClient;
 
 namespace DB_Mid_Project.UI
 {
     public partial class FacultyManagementShow : Form
     {
+
+        private readonly FacultyMangementShowBL facultyBLL;
+
         public FacultyManagementShow()
         {
             InitializeComponent();
+            string connectionString = "server=127.0.0.1;port=3306;user=root;database=midprojectdb;password=zain.8773;SslMode=None;"; // Replace with your actual connection string
+            facultyBLL = new FacultyMangementShowBL(connectionString);
             LoadFacultyData();
         }
-
-
 
         private void LoadFacultyData()
         {
             try
             {
-                // Query to fetch all faculty details
-                string query = @"
-                    SELECT 
-                        faculty_id AS 'Faculty ID',
-                        name AS 'Name',
-                        email AS 'Email',
-                        contact AS 'Contact',
-                        designation_id AS 'Designation ID',
-                        research_area AS 'Research Area',
-                        total_teaching_hours AS 'Teaching Hours'
-                    FROM faculty";
+                DataTable dt = facultyBLL.GetAllFaculty();
+                dvgFaculty.DataSource = dt;
 
-                using (var connection = DatabaseHelper.Instance.getConnection())
-                {
-                    using (var command = new MySqlCommand(query, connection))
-                    {
-                        using (var adapter = new MySqlDataAdapter(command))
-                        {
-                            DataTable dt = new DataTable();
-                            adapter.Fill(dt); // Fill the DataTable with faculty data
-
-                            // Bind the DataTable to the DataGridView
-                            dataGridView1.DataSource = dt;
-                        }
-                    }
-                }
+                // Optional: Customize the DataGridView
+                dvgFaculty.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                dvgFaculty.ReadOnly = true;
             }
             catch (Exception ex)
             {
@@ -61,37 +36,23 @@ namespace DB_Mid_Project.UI
 
         private void btnRefresh_Click(object sender, EventArgs e)
         {
-            // Refresh the data when the button is clicked
-            LoadFacultyData();
+            facultyBLL.GetAllFaculty();
         }
 
-        private void logout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+
+
+
+        
+
+        private void logout_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
+
             FacultyManagement facultymanagement = new FacultyManagement();
             this.Hide();
             facultymanagement.ShowDialog();
             this.Close();
-
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

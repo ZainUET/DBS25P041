@@ -1,6 +1,6 @@
 ﻿namespace DB_Mid_Project.UI
 {
-    partial class CourseManagement
+    partial class RoomManagement
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CourseManagement));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RoomManagement));
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
             label6 = new Label();
@@ -106,9 +106,9 @@
             H1.Font = new Font("Arial Rounded MT Bold", 24.75F, FontStyle.Italic);
             H1.Location = new Point(477, 185);
             H1.Name = "H1";
-            H1.Size = new Size(352, 40);
+            H1.Size = new Size(329, 40);
             H1.TabIndex = 10;
-            H1.Text = "Course Management";
+            H1.Text = "Room Management";
             // 
             // addmember
             // 
@@ -241,7 +241,7 @@
             label3.TabIndex = 37;
             label3.Text = "🏠︎";
             // 
-            // CourseManagement
+            // RoomManagement
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -260,8 +260,8 @@
             Controls.Add(H1);
             Controls.Add(panel1);
             Controls.Add(panel2);
-            Name = "CourseManagement";
-            Text = "CourseManagement";
+            Name = "RoomManagement";
+            Text = "RoomManagement";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

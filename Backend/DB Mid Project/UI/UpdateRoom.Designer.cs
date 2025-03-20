@@ -1,6 +1,6 @@
 ﻿namespace DB_Mid_Project.UI
 {
-    partial class FacultyManagementAdd
+    partial class UpdateRoom
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FacultyManagementAdd));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpdateRoom));
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
             label6 = new Label();
@@ -36,20 +36,17 @@
             panel1 = new Panel();
             panel3 = new Panel();
             panel4 = new Panel();
-            Submit = new Button();
+            rooms = new ComboBox();
+            add_course = new Button();
             label5 = new Label();
-            Designation = new ComboBox();
-            label2 = new Label();
-            label1 = new Label();
-            fTeachingHours = new TextBox();
-            fResearchArea = new TextBox();
-            fcontact = new TextBox();
-            fcontacticon = new Label();
+            room_type = new ComboBox();
             femailicon = new Label();
-            femail = new TextBox();
+            credit_hours = new TextBox();
             fnameicon = new Label();
-            fname = new TextBox();
+            course_name = new TextBox();
             H1 = new Label();
+            logout = new LinkLabel();
+            label1 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -62,10 +59,10 @@
             panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(label6);
             panel2.Controls.Add(pictureBox2);
-            panel2.Location = new Point(1, -2);
+            panel2.Location = new Point(-1, -1);
             panel2.Name = "panel2";
             panel2.Size = new Size(1349, 134);
-            panel2.TabIndex = 8;
+            panel2.TabIndex = 9;
             // 
             // pictureBox1
             // 
@@ -100,193 +97,167 @@
             // panel1
             // 
             panel1.BackColor = Color.AliceBlue;
-            panel1.Location = new Point(-1, 132);
+            panel1.Location = new Point(-1, 133);
             panel1.Name = "panel1";
             panel1.Size = new Size(175, 597);
-            panel1.TabIndex = 9;
+            panel1.TabIndex = 10;
             // 
             // panel3
             // 
             panel3.BackColor = Color.AliceBlue;
-            panel3.Location = new Point(1178, 132);
+            panel3.Location = new Point(1176, 133);
             panel3.Name = "panel3";
             panel3.Size = new Size(175, 597);
-            panel3.TabIndex = 10;
+            panel3.TabIndex = 11;
             // 
             // panel4
             // 
             panel4.BackColor = Color.AliceBlue;
-            panel4.Controls.Add(Submit);
+            panel4.Controls.Add(rooms);
+            panel4.Controls.Add(add_course);
             panel4.Controls.Add(label5);
-            panel4.Controls.Add(Designation);
-            panel4.Controls.Add(label2);
-            panel4.Controls.Add(label1);
-            panel4.Controls.Add(fTeachingHours);
-            panel4.Controls.Add(fResearchArea);
-            panel4.Controls.Add(fcontact);
-            panel4.Controls.Add(fcontacticon);
+            panel4.Controls.Add(room_type);
             panel4.Controls.Add(femailicon);
-            panel4.Controls.Add(femail);
+            panel4.Controls.Add(credit_hours);
             panel4.Controls.Add(fnameicon);
-            panel4.Controls.Add(fname);
+            panel4.Controls.Add(course_name);
             panel4.Controls.Add(H1);
-            panel4.Location = new Point(497, 197);
+            panel4.Location = new Point(475, 201);
             panel4.Name = "panel4";
-            panel4.Size = new Size(400, 430);
-            panel4.TabIndex = 11;
-            //panel4.Paint += panel4_Paint;
+            panel4.Size = new Size(400, 377);
+            panel4.TabIndex = 12;
             // 
-            // Submit
+            // rooms
             // 
-            Submit.Cursor = Cursors.Hand;
-            Submit.Font = new Font("Arial Rounded MT Bold", 10F);
-            Submit.Location = new Point(55, 364);
-            Submit.Name = "Submit";
-            Submit.Size = new Size(297, 31);
-            Submit.TabIndex = 40;
-            Submit.Text = "Submit";
-            Submit.UseVisualStyleBackColor = true;
-            Submit.Click += Submit_Click;
+            rooms.Cursor = Cursors.Hand;
+            rooms.Font = new Font("Arial", 9F);
+            rooms.FormattingEnabled = true;
+            rooms.Location = new Point(84, 80);
+            rooms.Name = "rooms";
+            rooms.Size = new Size(260, 23);
+            rooms.TabIndex = 41;
+            // 
+            // add_course
+            // 
+            add_course.Cursor = Cursors.Hand;
+            add_course.Font = new Font("Arial Rounded MT Bold", 10F);
+            add_course.Location = new Point(52, 306);
+            add_course.Name = "add_course";
+            add_course.Size = new Size(297, 31);
+            add_course.TabIndex = 40;
+            add_course.Text = "Update Room";
+            add_course.UseVisualStyleBackColor = true;
+            add_course.Click += add_course_Click;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F);
-            label5.Location = new Point(49, 312);
+            label5.Location = new Point(46, 241);
             label5.Name = "label5";
             label5.Size = new Size(32, 21);
             label5.TabIndex = 39;
             label5.Text = "💼";
             // 
-            // Designation
+            // room_type
             // 
-            Designation.Cursor = Cursors.Hand;
-            Designation.Font = new Font("Arial", 9F);
-            Designation.FormattingEnabled = true;
-            Designation.Location = new Point(84, 310);
-            Designation.Name = "Designation";
-            Designation.Size = new Size(267, 23);
-            Designation.TabIndex = 37;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(49, 258);
-            label2.Name = "label2";
-            label2.Size = new Size(32, 21);
-            label2.TabIndex = 36;
-            label2.Text = "✉️";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 12F);
-            label1.Location = new Point(49, 212);
-            label1.Name = "label1";
-            label1.Size = new Size(32, 21);
-            label1.TabIndex = 35;
-            label1.Text = "🎓";
-            // 
-            // fTeachingHours
-            // 
-            fTeachingHours.Font = new Font("Arial", 9F);
-            fTeachingHours.Location = new Point(84, 258);
-            fTeachingHours.Name = "fTeachingHours";
-            fTeachingHours.PlaceholderText = "Total Teaching Hours";
-            fTeachingHours.Size = new Size(260, 21);
-            fTeachingHours.TabIndex = 34;
-            // 
-            // fResearchArea
-            // 
-            fResearchArea.Font = new Font("Arial", 9F);
-            fResearchArea.Location = new Point(84, 212);
-            fResearchArea.Name = "fResearchArea";
-            fResearchArea.PlaceholderText = "Research Area";
-            fResearchArea.Size = new Size(260, 21);
-            fResearchArea.TabIndex = 33;
-            // 
-            // fcontact
-            // 
-            fcontact.Font = new Font("Arial", 9F);
-            fcontact.Location = new Point(84, 170);
-            fcontact.Name = "fcontact";
-            fcontact.PlaceholderText = "Contact";
-            fcontact.Size = new Size(260, 21);
-            fcontact.TabIndex = 32;
-            // 
-            // fcontacticon
-            // 
-            fcontacticon.AutoSize = true;
-            fcontacticon.Font = new Font("Segoe UI", 15F);
-            fcontacticon.Location = new Point(49, 165);
-            fcontacticon.Name = "fcontacticon";
-            fcontacticon.Size = new Size(32, 28);
-            fcontacticon.TabIndex = 31;
-            fcontacticon.Text = "☏";
+            room_type.Cursor = Cursors.Hand;
+            room_type.Font = new Font("Arial", 9F);
+            room_type.FormattingEnabled = true;
+            room_type.Location = new Point(84, 239);
+            room_type.Name = "room_type";
+            room_type.Size = new Size(260, 23);
+            room_type.TabIndex = 37;
             // 
             // femailicon
             // 
             femailicon.AutoSize = true;
             femailicon.Font = new Font("Segoe UI", 12F);
-            femailicon.Location = new Point(49, 121);
+            femailicon.Location = new Point(46, 183);
             femailicon.Name = "femailicon";
             femailicon.Size = new Size(32, 21);
             femailicon.TabIndex = 30;
             femailicon.Text = "✉️";
             // 
-            // femail
+            // credit_hours
             // 
-            femail.Font = new Font("Arial", 9F);
-            femail.Location = new Point(84, 121);
-            femail.Name = "femail";
-            femail.PlaceholderText = "Email";
-            femail.Size = new Size(260, 21);
-            femail.TabIndex = 29;
+            credit_hours.Font = new Font("Arial", 9F);
+            credit_hours.Location = new Point(84, 183);
+            credit_hours.Name = "credit_hours";
+            credit_hours.PlaceholderText = "Capacity";
+            credit_hours.Size = new Size(260, 21);
+            credit_hours.TabIndex = 29;
             // 
             // fnameicon
             // 
             fnameicon.AutoSize = true;
             fnameicon.Font = new Font("Segoe UI", 12F);
-            fnameicon.Location = new Point(52, 74);
+            fnameicon.Location = new Point(49, 135);
             fnameicon.Name = "fnameicon";
             fnameicon.Size = new Size(29, 21);
             fnameicon.TabIndex = 28;
             fnameicon.Text = "👨🏻‍💼";
             // 
-            // fname
+            // course_name
             // 
-            fname.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            fname.Location = new Point(84, 75);
-            fname.Name = "fname";
-            fname.PlaceholderText = "Name";
-            fname.Size = new Size(260, 21);
-            fname.TabIndex = 27;
+            course_name.Font = new Font("Arial", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            course_name.Location = new Point(84, 137);
+            course_name.Name = "course_name";
+            course_name.PlaceholderText = "Room Name";
+            course_name.Size = new Size(260, 21);
+            course_name.TabIndex = 27;
             // 
             // H1
             // 
             H1.AutoSize = true;
             H1.BackColor = Color.AliceBlue;
             H1.Font = new Font("Arial Rounded MT Bold", 19.25F);
-            H1.Location = new Point(32, 18);
+            H1.Location = new Point(109, 18);
             H1.Name = "H1";
-            H1.Size = new Size(346, 30);
+            H1.Size = new Size(192, 30);
             H1.TabIndex = 26;
-            H1.Text = "➕ Add Faculty Member➕ ";
+            H1.Text = "Update Room ";
             // 
-            // FacultyManagementAdd
+            // logout
+            // 
+            logout.BackColor = Color.AliceBlue;
+            logout.Cursor = Cursors.Hand;
+            logout.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            logout.LinkBehavior = LinkBehavior.NeverUnderline;
+            logout.LinkColor = Color.Black;
+            logout.Location = new Point(960, 569);
+            logout.Name = "logout";
+            logout.Size = new Size(147, 133);
+            logout.TabIndex = 37;
+            logout.TabStop = true;
+            logout.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n            Back\r\n            ";
+            logout.LinkClicked += logout_LinkClicked;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.AliceBlue;
+            label1.Font = new Font("Arial Rounded MT Bold", 35.25F);
+            label1.Location = new Point(1000, 607);
+            label1.Name = "label1";
+            label1.Size = new Size(63, 54);
+            label1.TabIndex = 39;
+            label1.Text = "⬅";
+            // 
+            // UpdateRoom
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1350, 729);
+            Controls.Add(label1);
+            Controls.Add(logout);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(panel2);
-            Name = "FacultyManagementAdd";
-            Text = "FacultyManagementAdd";
-            Load += FacultyManagementAdd_Load;
+            Name = "UpdateRoom";
+            Text = "AddCourse";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -294,6 +265,7 @@
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -305,19 +277,19 @@
         private Panel panel1;
         private Panel panel3;
         private Panel panel4;
-        private Label H1;
-        private TextBox fname;
-        private Label fnameicon;
-        private TextBox femail;
-        private Label femailicon;
-        private TextBox fcontact;
-        private Label fcontacticon;
+        private Button add_course;
+        private Label label5;
+        private ComboBox room_type;
         private Label label2;
         private Label label1;
         private TextBox fTeachingHours;
         private TextBox fResearchArea;
-        private ComboBox Designation;
-        private Label label5;
-        private Button Submit;
+        private Label femailicon;
+        private TextBox credit_hours;
+        private Label fnameicon;
+        private TextBox course_name;
+        private Label H1;
+        private ComboBox rooms;
+        private LinkLabel logout;
     }
 }

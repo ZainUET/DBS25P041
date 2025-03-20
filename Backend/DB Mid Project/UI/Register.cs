@@ -18,7 +18,7 @@ namespace DB_Mid_Project
 
         private void Register_Load(object sender, EventArgs e)
         {
-            LoadRoles();  
+            LoadRoles();
         }
 
         private void linkLabel1_Click(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace DB_Mid_Project
             string email = textBox3.Text.Trim();
             string password = textBox2.Text.Trim();
             string confirmPassword = textBox4.Text.Trim();
-            string selectedRole = Role.SelectedItem?.ToString();  
+            string selectedRole = Role.SelectedItem?.ToString();
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(email) ||
                 string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirmPassword))
@@ -110,9 +110,9 @@ namespace DB_Mid_Project
             {
                 MessageBox.Show("Registration Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Login loginForm = new Login();
-                this.Hide(); 
-                loginForm.ShowDialog(); 
-                this.Close(); 
+                this.Hide();
+                loginForm.ShowDialog();
+                this.Close();
 
             }
             else
@@ -197,6 +197,14 @@ namespace DB_Mid_Project
                     }
                 }
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Login loginForm = new Login();
+            this.Hide();
+            loginForm.ShowDialog();
+            this.Close();
         }
     }
 }

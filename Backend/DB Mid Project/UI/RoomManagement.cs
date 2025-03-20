@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DB_Mid_Project.UI
 {
-    public partial class CourseManagement : Form
+    public partial class RoomManagement : Form
     {
-        public CourseManagement()
+        public RoomManagement()
         {
             InitializeComponent();
         }
@@ -33,7 +33,7 @@ namespace DB_Mid_Project.UI
         private void addmember_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
-            AddCourse addForm = new AddCourse();
+            AddRoom addForm = new AddRoom();
             this.Hide();
             addForm.ShowDialog();
             this.Close();
@@ -42,16 +42,17 @@ namespace DB_Mid_Project.UI
         private void removemember_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
-            RemoveCourse removeForm = new RemoveCourse();
+
+            RemoveRoom addForm = new RemoveRoom();
             this.Hide();
-            removeForm.ShowDialog();
+            addForm.ShowDialog();
             this.Close();
         }
 
         private void updatemember_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
-            UpdateCourse updateForm = new UpdateCourse();
+            UpdateRoom updateForm = new UpdateRoom();
             this.Hide();
             updateForm.ShowDialog();
             this.Close();
@@ -59,7 +60,7 @@ namespace DB_Mid_Project.UI
 
         private void showfaculty_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            ShowCourses showForm = new ShowCourses();
+            ShowRooms showForm = new ShowRooms();
             this.Hide();
             showForm.ShowDialog();
             this.Close();

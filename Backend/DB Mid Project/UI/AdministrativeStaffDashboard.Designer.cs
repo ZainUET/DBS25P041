@@ -166,6 +166,7 @@
             linkLabel2.TabIndex = 25;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "\r\n\r\n               \r\n\r\n\r\n            Course\r\n       Management";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
             // label4
             // 

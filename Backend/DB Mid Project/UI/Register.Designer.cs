@@ -188,6 +188,7 @@
             linkLabel1.TabIndex = 1;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "← Back To Login";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             linkLabel1.Click += linkLabel1_Click;
             // 
             // signup

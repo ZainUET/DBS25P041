@@ -33,5 +33,14 @@ namespace DB_Mid_Project.UI
             loginForm.ShowDialog();
             this.Close();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            CourseManagement CourseForm = new CourseManagement();
+            this.Hide();
+            CourseForm.ShowDialog();
+            this.Close();
+        }
     }
 }

@@ -63,10 +63,11 @@
             // H1
             // 
             H1.AutoSize = true;
+            H1.BorderStyle = BorderStyle.Fixed3D;
             H1.Font = new Font("Arial Rounded MT Bold", 24.75F, FontStyle.Italic);
             H1.Location = new Point(594, 180);
             H1.Name = "H1";
-            H1.Size = new Size(353, 38);
+            H1.Size = new Size(355, 40);
             H1.TabIndex = 1;
             H1.Text = "Faculty Management";
             // 
@@ -195,7 +196,7 @@
             label2.Name = "label2";
             label2.Size = new Size(77, 54);
             label2.TabIndex = 25;
-            label2.Text = "🙋🏻‍♂️";
+            label2.Text = "➕";
             label2.Click += label2_Click;
             // 
             // label1

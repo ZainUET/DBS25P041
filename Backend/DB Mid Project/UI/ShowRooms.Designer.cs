@@ -1,6 +1,6 @@
 ﻿namespace DB_Mid_Project.UI
 {
-    partial class FacultyManagementShow
+    partial class ShowRooms
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FacultyManagementShow));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowRooms));
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
             label6 = new Label();
             pictureBox2 = new PictureBox();
             panel1 = new Panel();
+            panel3 = new Panel();
+            rooms = new DataGridView();
             H1 = new Label();
-            dvgFaculty = new DataGridView();
             logout = new LinkLabel();
             label1 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dvgFaculty).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)rooms).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -50,10 +51,10 @@
             panel2.Controls.Add(pictureBox1);
             panel2.Controls.Add(label6);
             panel2.Controls.Add(pictureBox2);
-            panel2.Location = new Point(2, -1);
+            panel2.Location = new Point(0, -1);
             panel2.Name = "panel2";
             panel2.Size = new Size(1349, 134);
-            panel2.TabIndex = 8;
+            panel2.TabIndex = 10;
             // 
             // pictureBox1
             // 
@@ -69,7 +70,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Arial Rounded MT Bold", 24.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label6.Location = new Point(330, 56);
+            label6.Location = new Point(399, 55);
             label6.Name = "label6";
             label6.Size = new Size(566, 38);
             label6.TabIndex = 1;
@@ -88,31 +89,45 @@
             // panel1
             // 
             panel1.BackColor = Color.AliceBlue;
-            panel1.Location = new Point(1, 133);
+            panel1.Location = new Point(0, 133);
             panel1.Name = "panel1";
             panel1.Size = new Size(175, 597);
-            panel1.TabIndex = 9;
+            panel1.TabIndex = 11;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.AliceBlue;
+            panel3.Location = new Point(1177, 133);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(175, 597);
+            panel3.TabIndex = 12;
+            // 
+            // rooms
+            // 
+            rooms.AllowUserToAddRows = false;
+            rooms.AllowUserToDeleteRows = false;
+            rooms.AllowUserToOrderColumns = true;
+            rooms.AllowUserToResizeColumns = false;
+            rooms.AllowUserToResizeRows = false;
+            rooms.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            rooms.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
+            rooms.BackgroundColor = Color.AliceBlue;
+            rooms.BorderStyle = BorderStyle.Fixed3D;
+            rooms.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            rooms.Location = new Point(300, 289);
+            rooms.Name = "rooms";
+            rooms.Size = new Size(751, 150);
+            rooms.TabIndex = 13;
             // 
             // H1
             // 
             H1.AutoSize = true;
             H1.Font = new Font("Arial Rounded MT Bold", 22F);
-            H1.Location = new Point(525, 173);
+            H1.Location = new Point(597, 177);
             H1.Name = "H1";
-            H1.Size = new Size(266, 34);
-            H1.TabIndex = 10;
-            H1.Text = "Faculty Members";
-            // 
-            // dvgFaculty
-            // 
-            dvgFaculty.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dvgFaculty.BackgroundColor = Color.AliceBlue;
-            dvgFaculty.BorderStyle = BorderStyle.Fixed3D;
-            dvgFaculty.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dvgFaculty.Location = new Point(311, 269);
-            dvgFaculty.Name = "dvgFaculty";
-            dvgFaculty.Size = new Size(751, 150);
-            dvgFaculty.TabIndex = 11;
+            H1.Size = new Size(116, 34);
+            H1.TabIndex = 14;
+            H1.Text = "Rooms";
             // 
             // logout
             // 
@@ -121,26 +136,26 @@
             logout.Font = new Font("Arial Rounded MT Bold", 10.75F);
             logout.LinkBehavior = LinkBehavior.NeverUnderline;
             logout.LinkColor = Color.Black;
-            logout.Location = new Point(612, 527);
+            logout.Location = new Point(606, 521);
             logout.Name = "logout";
             logout.Size = new Size(147, 133);
-            logout.TabIndex = 34;
+            logout.TabIndex = 35;
             logout.TabStop = true;
-            logout.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n            Back\r\n\r\n            ";
-            logout.LinkClicked += logout_LinkClicked_1;
+            logout.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n            Back\r\n            ";
+            logout.LinkClicked += logout_LinkClicked;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.AliceBlue;
             label1.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label1.Location = new Point(650, 563);
+            label1.Location = new Point(644, 552);
             label1.Name = "label1";
             label1.Size = new Size(63, 54);
-            label1.TabIndex = 36;
+            label1.TabIndex = 37;
             label1.Text = "⬅";
             // 
-            // FacultyManagementShow
+            // ShowRooms
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -148,17 +163,18 @@
             ClientSize = new Size(1350, 729);
             Controls.Add(label1);
             Controls.Add(logout);
-            Controls.Add(dvgFaculty);
             Controls.Add(H1);
+            Controls.Add(rooms);
+            Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(panel2);
-            Name = "FacultyManagementShow";
-            Text = "FacultyManagementShow";
+            Name = "ShowRooms";
+            Text = "ShowCourses";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dvgFaculty).EndInit();
+            ((System.ComponentModel.ISupportInitialize)rooms).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -170,8 +186,9 @@
         private Label label6;
         private PictureBox pictureBox2;
         private Panel panel1;
+        private Panel panel3;
+        private DataGridView rooms;
         private Label H1;
-        private DataGridView dvgFaculty;
         private LinkLabel logout;
         private Label label1;
     }

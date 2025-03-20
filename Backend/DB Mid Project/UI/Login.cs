@@ -26,9 +26,9 @@ namespace DB_Mid_Project
             try
             {
                 Register registerForm = new Register();
-                this.Hide(); 
-                registerForm.ShowDialog(); 
-                this.Close(); 
+                this.Hide();
+                registerForm.ShowDialog();
+                this.Close();
             }
             catch (Exception ex)
             {
@@ -70,7 +70,7 @@ namespace DB_Mid_Project
             {
                 string username = textBox1.Text.Trim();
                 string password = textBox2.Text.Trim();
-                string selectedRole = role.SelectedItem?.ToString();  
+                string selectedRole = role.SelectedItem?.ToString();
 
                 if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
                 {
@@ -126,7 +126,7 @@ namespace DB_Mid_Project
                     }
                 }
             }
-            return false; 
+            return false;
         }
 
         private int GetRoleId(string roleName)
