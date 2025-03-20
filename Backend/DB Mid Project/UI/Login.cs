@@ -5,6 +5,7 @@ using DB_Mid_Project.DL;
 using MySql.Data.MySqlClient;
 using BCrypt.Net;
 using System.Data;
+using DB_Mid_Project.UI;
 
 namespace DB_Mid_Project
 {
@@ -25,8 +26,9 @@ namespace DB_Mid_Project
             try
             {
                 Register registerForm = new Register();
-                registerForm.Show();  
-                this.Hide();          
+                this.Hide(); 
+                registerForm.ShowDialog(); 
+                this.Close(); 
             }
             catch (Exception ex)
             {
@@ -38,9 +40,10 @@ namespace DB_Mid_Project
         {
             try
             {
-                forgotPassword forgotPasswordForm = new forgotPassword();
-                forgotPasswordForm.Show();  
-                this.Hide();              
+                forgotPassword forgotForm = new forgotPassword();
+                this.Hide();
+                forgotForm.ShowDialog();
+                this.Close();
             }
             catch (Exception ex)
             {
@@ -146,13 +149,22 @@ namespace DB_Mid_Project
             switch (role)
             {
                 case "Admin":
-                    MessageBox.Show("Redirecting to Admin Dashboard.");
+                    AdministrativeStaffDashboard admindashboardForm = new AdministrativeStaffDashboard();
+                    this.Hide();
+                    admindashboardForm.ShowDialog();
+                    this.Close();
                     break;
                 case "Department Head":
-                    MessageBox.Show("Redirecting to Department Head Dashboard.");
+                    DepartmentHeadDashborad departmentheaddashboardForm = new DepartmentHeadDashborad();
+                    this.Hide();
+                    departmentheaddashboardForm.ShowDialog();
+                    this.Close();
                     break;
                 case "Faculty":
-                    MessageBox.Show("Redirecting to Faculty Dashboard.");
+                    FacultyMembersDashboard facultydashboardForm = new FacultyMembersDashboard();
+                    this.Hide();
+                    facultydashboardForm.ShowDialog();
+                    this.Close();
                     break;
                 default:
                     MessageBox.Show("Unauthorized access.");

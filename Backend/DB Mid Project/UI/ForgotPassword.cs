@@ -64,8 +64,9 @@ namespace DB_Mid_Project
             try
             {
                 Login loginForm = new Login();
-                loginForm.Show();  
-                this.Hide();       
+                this.Hide();
+                loginForm.ShowDialog();
+                this.Close();
             }
             catch (Exception ex)
             {

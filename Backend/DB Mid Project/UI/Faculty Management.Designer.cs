@@ -45,6 +45,8 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            showfaculty = new LinkLabel();
+            label7 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -137,6 +139,7 @@
             removemember.TabIndex = 21;
             removemember.TabStop = true;
             removemember.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n          Remove\r\n            ";
+            removemember.LinkClicked += removemember_LinkClicked;
             // 
             // updatemember
             // 
@@ -151,6 +154,7 @@
             updatemember.TabIndex = 22;
             updatemember.TabStop = true;
             updatemember.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n          Update\r\n\r\n            ";
+            updatemember.LinkClicked += updatemember_LinkClicked;
             // 
             // Home
             // 
@@ -165,6 +169,7 @@
             Home.TabIndex = 23;
             Home.TabStop = true;
             Home.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n            Home\r\n\r\n            ";
+            Home.LinkClicked += Home_LinkClicked;
             // 
             // logout
             // 
@@ -179,6 +184,7 @@
             logout.TabIndex = 24;
             logout.TabStop = true;
             logout.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n          Log Out\r\n\r\n            ";
+            logout.LinkClicked += logout_LinkClicked;
             // 
             // label2
             // 
@@ -190,13 +196,14 @@
             label2.Size = new Size(77, 54);
             label2.TabIndex = 25;
             label2.Text = "🙋🏻‍♂️";
+            label2.Click += label2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.AliceBlue;
             label1.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label1.Location = new Point(863, 521);
+            label1.Location = new Point(866, 520);
             label1.Name = "label1";
             label1.Size = new Size(67, 54);
             label1.TabIndex = 26;
@@ -235,6 +242,32 @@
             label5.TabIndex = 29;
             label5.Text = "🛠️";
             // 
+            // showfaculty
+            // 
+            showfaculty.BackColor = Color.AliceBlue;
+            showfaculty.Cursor = Cursors.Hand;
+            showfaculty.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            showfaculty.LinkBehavior = LinkBehavior.NeverUnderline;
+            showfaculty.LinkColor = Color.Black;
+            showfaculty.Location = new Point(310, 482);
+            showfaculty.Name = "showfaculty";
+            showfaculty.Size = new Size(147, 131);
+            showfaculty.TabIndex = 30;
+            showfaculty.TabStop = true;
+            showfaculty.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n            Show\r\n           ";
+            showfaculty.LinkClicked += showfaculty_LinkClicked;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.BackColor = Color.AliceBlue;
+            label7.Font = new Font("Arial Rounded MT Bold", 35.25F);
+            label7.Location = new Point(345, 519);
+            label7.Name = "label7";
+            label7.Size = new Size(77, 54);
+            label7.TabIndex = 31;
+            label7.Text = "👀";
+            // 
             // FacultyManagement
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -242,6 +275,8 @@
             BackColor = Color.White;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1350, 729);
+            Controls.Add(label7);
+            Controls.Add(showfaculty);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -283,5 +318,7 @@
         private Label label3;
         private Label label4;
         private Label label5;
+        private LinkLabel showfaculty;
+        private Label label7;
     }
 }

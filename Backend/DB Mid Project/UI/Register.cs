@@ -26,8 +26,9 @@ namespace DB_Mid_Project
             try
             {
                 Login loginForm = new Login();
-                loginForm.Show();  
-                this.Hide();       
+                this.Hide();
+                loginForm.ShowDialog();
+                this.Close();
             }
             catch (Exception ex)
             {
@@ -108,7 +109,11 @@ namespace DB_Mid_Project
             if (RegisterUser(username, email, passwordHash, roleId))
             {
                 MessageBox.Show("Registration Successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
+                Login loginForm = new Login();
+                this.Hide(); 
+                loginForm.ShowDialog(); 
+                this.Close(); 
+
             }
             else
             {

@@ -96,6 +96,10 @@ namespace DB_Mid_Project.UI
                 }
             }
             MessageBox.Show("Faculty member added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            FacultyManagement facultymanagement = new FacultyManagement();
+            this.Hide();
+            facultymanagement.ShowDialog();
+            this.Close();
         }
     }
 }
