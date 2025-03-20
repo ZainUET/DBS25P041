@@ -178,3 +178,12 @@ C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-wi
 C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AdministrativeStaffDashboard.resources
 C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.DepartmentHeadDashborad.resources
 C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyMembersDashboard.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AddCourse.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveCourse.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.UpdateCourse.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowCourses.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RoomManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AddRoom.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveRoom.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowRooms.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.UpdateRoom.resources
