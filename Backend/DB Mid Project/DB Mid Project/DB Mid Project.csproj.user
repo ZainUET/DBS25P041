@@ -58,6 +58,9 @@
     <Compile Update="UI\RemoveCourse.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UI\RemoveFacultyAdminRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UI\RemoveProject .cs">
       <SubType>Form</SubType>
     </Compile>

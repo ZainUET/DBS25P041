@@ -16,6 +16,40 @@
 
   <ItemGroup>
     <Compile Update="UI\AddSemester.cs" />
+    <Compile Update="UI\AssignAdminRoleToFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\AllocateRoomToFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\AssignProjectToFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FacultyAdminRoleManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FacultyRoomManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FacultyProjectManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RemoveFacultyRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RemoveFacultyProjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RemoveFacultyAdminRoles.cs" />
+    <Compile Update="UI\ViewFacultyAdminRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ShowFacultyRooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ShowFacultyProjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UI\ViewAssignedFacultyCourses.cs" />
     <Compile Update="UI\RemoveFacultyCourse.cs">
       <SubType>Form</SubType>
