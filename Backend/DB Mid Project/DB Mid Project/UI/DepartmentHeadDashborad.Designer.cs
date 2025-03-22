@@ -40,10 +40,12 @@
             label8 = new Label();
             linkLabel1 = new LinkLabel();
             label7 = new Label();
-            linkLabel3 = new LinkLabel();
-            label5 = new Label();
             logout = new LinkLabel();
             label2 = new Label();
+            linkLabel2 = new LinkLabel();
+            label3 = new Label();
+            linkLabel4 = new LinkLabel();
+            linkLabel3 = new LinkLabel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -157,43 +159,19 @@
             linkLabel1.Size = new Size(144, 131);
             linkLabel1.TabIndex = 28;
             linkLabel1.TabStop = true;
-            linkLabel1.Text = "\r\n\r\n               \r\n\r\n\r\n         Workload\r\n       Assignment";
+            linkLabel1.Text = "\r\n\r\n               \r\n\r\n\r\n            Project\r\n       Management";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.BackColor = Color.AliceBlue;
             label7.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label7.Location = new Point(428, 326);
+            label7.Location = new Point(433, 326);
             label7.Name = "label7";
             label7.Size = new Size(77, 54);
             label7.TabIndex = 29;
             label7.Text = "💼";
-            // 
-            // linkLabel3
-            // 
-            linkLabel3.BackColor = Color.AliceBlue;
-            linkLabel3.Cursor = Cursors.Hand;
-            linkLabel3.Font = new Font("Arial Rounded MT Bold", 10.75F);
-            linkLabel3.LinkBehavior = LinkBehavior.NeverUnderline;
-            linkLabel3.LinkColor = Color.Black;
-            linkLabel3.Location = new Point(844, 299);
-            linkLabel3.Name = "linkLabel3";
-            linkLabel3.Size = new Size(144, 131);
-            linkLabel3.TabIndex = 30;
-            linkLabel3.TabStop = true;
-            linkLabel3.Text = "\r\n\r\n               \r\n\r\n\r\n        Resource\r\n        Allocation\r\n";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.AliceBlue;
-            label5.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label5.Location = new Point(876, 326);
-            label5.Name = "label5";
-            label5.Size = new Size(77, 54);
-            label5.TabIndex = 31;
-            label5.Text = "🏛️";
             // 
             // logout
             // 
@@ -202,7 +180,7 @@
             logout.Font = new Font("Arial Rounded MT Bold", 10.75F);
             logout.LinkBehavior = LinkBehavior.NeverUnderline;
             logout.LinkColor = Color.Black;
-            logout.Location = new Point(626, 513);
+            logout.Location = new Point(844, 513);
             logout.Name = "logout";
             logout.Size = new Size(147, 131);
             logout.TabIndex = 32;
@@ -215,11 +193,66 @@
             label2.AutoSize = true;
             label2.BackColor = Color.AliceBlue;
             label2.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label2.Location = new Point(661, 544);
+            label2.Location = new Point(883, 542);
             label2.Name = "label2";
             label2.Size = new Size(67, 54);
             label2.TabIndex = 33;
             label2.Text = "🏃";
+            // 
+            // linkLabel2
+            // 
+            linkLabel2.BackColor = Color.AliceBlue;
+            linkLabel2.Cursor = Cursors.Hand;
+            linkLabel2.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
+            linkLabel2.LinkColor = Color.Black;
+            linkLabel2.Location = new Point(393, 513);
+            linkLabel2.Name = "linkLabel2";
+            linkLabel2.Size = new Size(144, 131);
+            linkLabel2.TabIndex = 34;
+            linkLabel2.TabStop = true;
+            linkLabel2.Text = "\r\n\r\n               \r\n\r\n\r\n          Room\r\n    Management\r\n";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.AliceBlue;
+            label3.Font = new Font("Arial Rounded MT Bold", 35.25F);
+            label3.Location = new Point(421, 544);
+            label3.Name = "label3";
+            label3.Size = new Size(77, 54);
+            label3.TabIndex = 35;
+            label3.Text = "🏛️";
+            // 
+            // linkLabel4
+            // 
+            linkLabel4.BackColor = Color.AliceBlue;
+            linkLabel4.Cursor = Cursors.Hand;
+            linkLabel4.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            linkLabel4.LinkBehavior = LinkBehavior.NeverUnderline;
+            linkLabel4.LinkColor = Color.Black;
+            linkLabel4.Location = new Point(626, 513);
+            linkLabel4.Name = "linkLabel4";
+            linkLabel4.Size = new Size(147, 131);
+            linkLabel4.TabIndex = 36;
+            linkLabel4.TabStop = true;
+            linkLabel4.Text = "\r\n\r\n               \r\n\r\n           Faculty\r\n             Role\r\n      Management        ";
+            linkLabel4.LinkClicked += linkLabel4_LinkClicked;
+            // 
+            // linkLabel3
+            // 
+            linkLabel3.BackColor = Color.AliceBlue;
+            linkLabel3.Cursor = Cursors.Hand;
+            linkLabel3.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            linkLabel3.LinkBehavior = LinkBehavior.NeverUnderline;
+            linkLabel3.LinkColor = Color.Black;
+            linkLabel3.Location = new Point(844, 299);
+            linkLabel3.Name = "linkLabel3";
+            linkLabel3.Size = new Size(147, 131);
+            linkLabel3.TabIndex = 37;
+            linkLabel3.TabStop = true;
+            linkLabel3.Text = "\r\n\r\n               \r\n\r\n           Faculty\r\n           Course\r\n        Scheduling        ";
             // 
             // DepartmentHeadDashborad
             // 
@@ -227,10 +260,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1350, 729);
+            Controls.Add(linkLabel3);
+            Controls.Add(linkLabel4);
+            Controls.Add(label3);
+            Controls.Add(linkLabel2);
             Controls.Add(label2);
             Controls.Add(logout);
-            Controls.Add(label5);
-            Controls.Add(linkLabel3);
             Controls.Add(label7);
             Controls.Add(linkLabel1);
             Controls.Add(label8);
@@ -262,9 +297,11 @@
         private Label label8;
         private LinkLabel linkLabel1;
         private Label label7;
-        private LinkLabel linkLabel3;
-        private Label label5;
         private LinkLabel logout;
         private Label label2;
+        private LinkLabel linkLabel2;
+        private Label label3;
+        private LinkLabel linkLabel4;
+        private LinkLabel linkLabel3;
     }
 }

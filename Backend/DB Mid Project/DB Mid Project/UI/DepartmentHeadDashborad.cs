@@ -46,5 +46,39 @@ namespace DB_Mid_Project.UI
 
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            ProjectManagement loginForm = new ProjectManagement();
+            this.Hide();
+            loginForm.ShowDialog();
+            this.Close();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            RoomManagement loginForm = new RoomManagement();
+            this.Hide();
+            loginForm.ShowDialog();
+            this.Close();
+
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            FacultyAdminRoleManagement loginForm = new FacultyAdminRoleManagement();
+            this.Hide();
+            loginForm.ShowDialog();
+            this.Close();
+
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }

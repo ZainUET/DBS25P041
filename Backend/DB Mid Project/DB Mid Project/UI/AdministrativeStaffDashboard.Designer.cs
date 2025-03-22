@@ -48,6 +48,7 @@
             linkLabel1 = new LinkLabel();
             linkLabel3 = new LinkLabel();
             linkLabel4 = new LinkLabel();
+            linkLabel5 = new LinkLabel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -137,7 +138,7 @@
             linkLabel7.Font = new Font("Arial Rounded MT Bold", 10.75F);
             linkLabel7.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel7.LinkColor = Color.Black;
-            linkLabel7.Location = new Point(352, 320);
+            linkLabel7.Location = new Point(239, 320);
             linkLabel7.Name = "linkLabel7";
             linkLabel7.Size = new Size(147, 131);
             linkLabel7.TabIndex = 20;
@@ -150,7 +151,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.AliceBlue;
             label2.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label2.Location = new Point(394, 349);
+            label2.Location = new Point(283, 349);
             label2.Name = "label2";
             label2.Size = new Size(77, 54);
             label2.TabIndex = 24;
@@ -163,7 +164,7 @@
             linkLabel2.Font = new Font("Arial Rounded MT Bold", 10.75F);
             linkLabel2.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel2.LinkColor = Color.Black;
-            linkLabel2.Location = new Point(660, 320);
+            linkLabel2.Location = new Point(510, 320);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(147, 131);
             linkLabel2.TabIndex = 25;
@@ -176,7 +177,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.AliceBlue;
             label4.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label4.Location = new Point(700, 349);
+            label4.Location = new Point(553, 349);
             label4.Name = "label4";
             label4.Size = new Size(72, 54);
             label4.TabIndex = 26;
@@ -189,7 +190,7 @@
             linkLabel8.Font = new Font("Arial Rounded MT Bold", 10.75F);
             linkLabel8.LinkBehavior = LinkBehavior.NeverUnderline;
             linkLabel8.LinkColor = Color.Black;
-            linkLabel8.Location = new Point(927, 320);
+            linkLabel8.Location = new Point(1012, 320);
             linkLabel8.Name = "linkLabel8";
             linkLabel8.Size = new Size(147, 131);
             linkLabel8.TabIndex = 27;
@@ -202,7 +203,7 @@
             label8.AutoSize = true;
             label8.BackColor = Color.AliceBlue;
             label8.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label8.Location = new Point(961, 352);
+            label8.Location = new Point(1049, 349);
             label8.Name = "label8";
             label8.Size = new Size(77, 54);
             label8.TabIndex = 28;
@@ -279,12 +280,28 @@
             linkLabel4.Text = "\r\n\r\n               \r\n\r\n            Faculty\r\n            Course\r\n       Management";
             linkLabel4.LinkClicked += linkLabel4_LinkClicked;
             // 
+            // linkLabel5
+            // 
+            linkLabel5.BackColor = Color.AliceBlue;
+            linkLabel5.Cursor = Cursors.Hand;
+            linkLabel5.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            linkLabel5.LinkBehavior = LinkBehavior.NeverUnderline;
+            linkLabel5.LinkColor = Color.Black;
+            linkLabel5.Location = new Point(795, 320);
+            linkLabel5.Name = "linkLabel5";
+            linkLabel5.Size = new Size(147, 131);
+            linkLabel5.TabIndex = 38;
+            linkLabel5.TabStop = true;
+            linkLabel5.Text = "\r\n\r\n               \r\n\r\n            Faculty\r\n             Room\r\n       Management";
+            linkLabel5.LinkClicked += linkLabel5_LinkClicked;
+            // 
             // AdministrativeStaffDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1350, 729);
+            Controls.Add(linkLabel5);
             Controls.Add(linkLabel4);
             Controls.Add(linkLabel3);
             Controls.Add(linkLabel1);
@@ -331,5 +348,6 @@
         private LinkLabel linkLabel1;
         private LinkLabel linkLabel3;
         private LinkLabel linkLabel4;
+        private LinkLabel linkLabel5;
     }
 }

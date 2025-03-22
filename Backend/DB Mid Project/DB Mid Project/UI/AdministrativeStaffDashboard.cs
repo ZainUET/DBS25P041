@@ -79,5 +79,15 @@ namespace DB_Mid_Project.UI
             this.Close();
 
         }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FacultyRoomManagement CourseForm = new FacultyRoomManagement();
+            this.Hide();
+            CourseForm.ShowDialog();
+            this.Close();
+
+
+        }
     }
 }
