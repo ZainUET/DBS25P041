@@ -24,7 +24,7 @@ namespace DB_Mid_Project.UI
 
         private void Home_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            AdministrativeStaffDashboard AMForm = new AdministrativeStaffDashboard();
+            DepartmentHeadDashborad AMForm = new DepartmentHeadDashborad();
             this.Hide();
             AMForm.ShowDialog();
             this.Close();

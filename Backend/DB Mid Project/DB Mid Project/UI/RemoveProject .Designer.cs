@@ -40,6 +40,7 @@
             add_course = new Button();
             H1 = new Label();
             logout = new LinkLabel();
+            label3 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -152,13 +153,24 @@
             logout.Font = new Font("Arial Rounded MT Bold", 10.75F);
             logout.LinkBehavior = LinkBehavior.NeverUnderline;
             logout.LinkColor = Color.Black;
-            logout.Location = new Point(971, 565);
+            logout.Location = new Point(971, 518);
             logout.Name = "logout";
-            logout.Size = new Size(147, 133);
+            logout.Size = new Size(147, 130);
             logout.TabIndex = 36;
             logout.TabStop = true;
             logout.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n            Back\r\n            ";
             logout.LinkClicked += logout_LinkClicked;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.AliceBlue;
+            label3.Font = new Font("Arial", 35.25F);
+            label3.Location = new Point(1011, 552);
+            label3.Name = "label3";
+            label3.Size = new Size(62, 53);
+            label3.TabIndex = 37;
+            label3.Text = "⬅";
             // 
             // RemoveProject
             // 
@@ -166,6 +178,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1350, 729);
+            Controls.Add(label3);
             Controls.Add(logout);
             Controls.Add(panel4);
             Controls.Add(panel3);
@@ -180,6 +193,7 @@
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -199,5 +213,6 @@
         private Label H1;
         private LinkLabel logout;
         private ComboBox projects;
+        private Label label3;
     }
 }

@@ -44,6 +44,7 @@
             course_name = new TextBox();
             H1 = new Label();
             logout = new LinkLabel();
+            label4 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -206,12 +207,24 @@
             logout.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n            Back\r\n            ";
             logout.LinkClicked += logout_LinkClicked;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.AliceBlue;
+            label4.Font = new Font("Arial", 35.25F);
+            label4.Location = new Point(1008, 602);
+            label4.Name = "label4";
+            label4.Size = new Size(62, 53);
+            label4.TabIndex = 38;
+            label4.Text = "⬅";
+            // 
             // UpdateProject
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1350, 729);
+            Controls.Add(label4);
             Controls.Add(logout);
             Controls.Add(panel4);
             Controls.Add(panel3);
@@ -226,6 +239,7 @@
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -249,5 +263,6 @@
         private Label label3;
         private RichTextBox richTextBox1;
         private ComboBox projects;
+        private Label label4;
     }
 }

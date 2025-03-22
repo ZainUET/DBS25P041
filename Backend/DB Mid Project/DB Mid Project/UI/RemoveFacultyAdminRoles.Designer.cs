@@ -1,6 +1,6 @@
 ﻿namespace DB_Mid_Project.UI
 {
-    partial class ShowProjects
+    partial class RemoveFacultyAdminRoles
     {
         /// <summary>
         /// Required designer variable.
@@ -28,21 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowProjects));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RemoveFacultyAdminRoles));
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
             label6 = new Label();
             pictureBox2 = new PictureBox();
             panel1 = new Panel();
             panel3 = new Panel();
-            projects = new DataGridView();
+            dataGridViewFacultyAdminRoles = new DataGridView();
             H1 = new Label();
             logout = new LinkLabel();
             label1 = new Label();
+            removeButton = new Button();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)projects).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewFacultyAdminRoles).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -102,32 +103,26 @@
             panel3.Size = new Size(175, 597);
             panel3.TabIndex = 12;
             // 
-            // projects
+            // dataGridViewFacultyAdminRoles
             // 
-            projects.AllowUserToAddRows = false;
-            projects.AllowUserToDeleteRows = false;
-            projects.AllowUserToOrderColumns = true;
-            projects.AllowUserToResizeColumns = false;
-            projects.AllowUserToResizeRows = false;
-            projects.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            projects.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
-            projects.BackgroundColor = SystemColors.ButtonHighlight;
-            projects.BorderStyle = BorderStyle.None;
-            projects.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            projects.Location = new Point(300, 289);
-            projects.Name = "projects";
-            projects.Size = new Size(751, 150);
-            projects.TabIndex = 13;
+            dataGridViewFacultyAdminRoles.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dataGridViewFacultyAdminRoles.BackgroundColor = SystemColors.ButtonHighlight;
+            dataGridViewFacultyAdminRoles.BorderStyle = BorderStyle.None;
+            dataGridViewFacultyAdminRoles.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewFacultyAdminRoles.Location = new Point(300, 289);
+            dataGridViewFacultyAdminRoles.Name = "dataGridViewFacultyAdminRoles";
+            dataGridViewFacultyAdminRoles.Size = new Size(751, 150);
+            dataGridViewFacultyAdminRoles.TabIndex = 13;
             // 
             // H1
             // 
             H1.AutoSize = true;
             H1.Font = new Font("Arial Rounded MT Bold", 22F);
-            H1.Location = new Point(597, 177);
+            H1.Location = new Point(490, 181);
             H1.Name = "H1";
-            H1.Size = new Size(137, 34);
+            H1.Size = new Size(441, 34);
             H1.TabIndex = 14;
-            H1.Text = "Projects";
+            H1.Text = "Remove Faculty Admin Roles";
             // 
             // logout
             // 
@@ -136,7 +131,7 @@
             logout.Font = new Font("Arial Rounded MT Bold", 10.75F);
             logout.LinkBehavior = LinkBehavior.NeverUnderline;
             logout.LinkColor = Color.Black;
-            logout.Location = new Point(606, 521);
+            logout.Location = new Point(960, 518);
             logout.Name = "logout";
             logout.Size = new Size(147, 133);
             logout.TabIndex = 35;
@@ -149,32 +144,46 @@
             label1.AutoSize = true;
             label1.BackColor = Color.AliceBlue;
             label1.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label1.Location = new Point(644, 552);
+            label1.Location = new Point(998, 551);
             label1.Name = "label1";
             label1.Size = new Size(63, 54);
             label1.TabIndex = 37;
             label1.Text = "⬅";
             // 
-            // ShowProjects
+            // removeButton
+            // 
+            removeButton.BackColor = Color.AliceBlue;
+            removeButton.FlatStyle = FlatStyle.Flat;
+            removeButton.Font = new Font("Arial Rounded MT Bold", 10F);
+            removeButton.Location = new Point(586, 518);
+            removeButton.Name = "removeButton";
+            removeButton.Size = new Size(151, 37);
+            removeButton.TabIndex = 39;
+            removeButton.Text = "Remove";
+            removeButton.UseVisualStyleBackColor = false;
+            removeButton.Click += removeButton_Click_1;
+            // 
+            // RemoveFacultyAdminRoles
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1350, 729);
+            Controls.Add(removeButton);
             Controls.Add(label1);
             Controls.Add(logout);
             Controls.Add(H1);
-            Controls.Add(projects);
+            Controls.Add(dataGridViewFacultyAdminRoles);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(panel2);
-            Name = "ShowProjects";
-            Text = "ShowCourses";
+            Name = "RemoveFacultyAdminRoles";
+            Text = "Remove Faculty Admin Roles";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)projects).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewFacultyAdminRoles).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -187,9 +196,10 @@
         private PictureBox pictureBox2;
         private Panel panel1;
         private Panel panel3;
-        private DataGridView projects;
+        private DataGridView dataGridViewFacultyAdminRoles;
         private Label H1;
         private LinkLabel logout;
         private Label label1;
+        private Button removeButton;
     }
 }

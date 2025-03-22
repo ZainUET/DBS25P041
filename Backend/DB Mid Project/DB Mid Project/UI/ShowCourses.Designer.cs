@@ -105,8 +105,8 @@
             // courses
             // 
             courses.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            courses.BackgroundColor = Color.AliceBlue;
-            courses.BorderStyle = BorderStyle.Fixed3D;
+            courses.BackgroundColor = SystemColors.ButtonHighlight;
+            courses.BorderStyle = BorderStyle.None;
             courses.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             courses.Location = new Point(300, 289);
             courses.Name = "courses";

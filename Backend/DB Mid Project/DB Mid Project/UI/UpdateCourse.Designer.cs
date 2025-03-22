@@ -47,6 +47,8 @@
             fnameicon = new Label();
             course_name = new TextBox();
             H1 = new Label();
+            logout = new LinkLabel();
+            label1 = new Label();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -239,12 +241,40 @@
             H1.TabIndex = 26;
             H1.Text = "Update Course ";
             // 
+            // logout
+            // 
+            logout.BackColor = Color.AliceBlue;
+            logout.Cursor = Cursors.Hand;
+            logout.Font = new Font("Arial Rounded MT Bold", 10.75F);
+            logout.LinkBehavior = LinkBehavior.NeverUnderline;
+            logout.LinkColor = Color.Black;
+            logout.Location = new Point(1001, 576);
+            logout.Name = "logout";
+            logout.Size = new Size(147, 133);
+            logout.TabIndex = 37;
+            logout.TabStop = true;
+            logout.Text = "\r\n\r\n               \r\n\r\n\r\n\r\n            Back\r\n            ";
+            logout.LinkClicked += logout_LinkClicked;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.AliceBlue;
+            label1.Font = new Font("Arial Rounded MT Bold", 35.25F);
+            label1.Location = new Point(1040, 612);
+            label1.Name = "label1";
+            label1.Size = new Size(63, 54);
+            label1.TabIndex = 39;
+            label1.Text = "⬅";
+            // 
             // UpdateCourse
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1350, 729);
+            Controls.Add(label1);
+            Controls.Add(logout);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(panel1);
@@ -258,6 +288,7 @@
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -280,5 +311,7 @@
         private Label fnameicon;
         private TextBox course_name;
         private Label H1;
+        private LinkLabel logout;
+        private Label label1;
     }
 }

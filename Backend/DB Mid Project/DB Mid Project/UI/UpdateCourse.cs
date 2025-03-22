@@ -105,5 +105,13 @@ namespace DB_Mid_Project.UI
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void logout_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            CourseManagement CMForm = new CourseManagement();
+            this.Hide();
+            CMForm.ShowDialog();
+            this.Close();
+        }
     }
 }

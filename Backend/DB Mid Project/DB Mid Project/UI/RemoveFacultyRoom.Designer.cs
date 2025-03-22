@@ -1,6 +1,6 @@
 ﻿namespace DB_Mid_Project.UI
 {
-    partial class ShowProjects
+    partial class RemoveFacultyRoom
     {
         /// <summary>
         /// Required designer variable.
@@ -28,21 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowProjects));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RemoveFacultyRoom));
             panel2 = new Panel();
             pictureBox1 = new PictureBox();
             label6 = new Label();
             pictureBox2 = new PictureBox();
             panel1 = new Panel();
             panel3 = new Panel();
-            projects = new DataGridView();
+            dataGridViewFacultyRoomAllocations = new DataGridView();
             H1 = new Label();
             logout = new LinkLabel();
             label1 = new Label();
+            removeButton = new Button();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)projects).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewFacultyRoomAllocations).BeginInit();
             SuspendLayout();
             // 
             // panel2
@@ -102,22 +103,16 @@
             panel3.Size = new Size(175, 597);
             panel3.TabIndex = 12;
             // 
-            // projects
+            // dataGridViewFacultyRoomAllocations
             // 
-            projects.AllowUserToAddRows = false;
-            projects.AllowUserToDeleteRows = false;
-            projects.AllowUserToOrderColumns = true;
-            projects.AllowUserToResizeColumns = false;
-            projects.AllowUserToResizeRows = false;
-            projects.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
-            projects.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
-            projects.BackgroundColor = SystemColors.ButtonHighlight;
-            projects.BorderStyle = BorderStyle.None;
-            projects.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            projects.Location = new Point(300, 289);
-            projects.Name = "projects";
-            projects.Size = new Size(751, 150);
-            projects.TabIndex = 13;
+            dataGridViewFacultyRoomAllocations.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dataGridViewFacultyRoomAllocations.BackgroundColor = SystemColors.ButtonHighlight;
+            dataGridViewFacultyRoomAllocations.BorderStyle = BorderStyle.None;
+            dataGridViewFacultyRoomAllocations.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewFacultyRoomAllocations.Location = new Point(300, 289);
+            dataGridViewFacultyRoomAllocations.Name = "dataGridViewFacultyRoomAllocations";
+            dataGridViewFacultyRoomAllocations.Size = new Size(751, 150);
+            dataGridViewFacultyRoomAllocations.TabIndex = 13;
             // 
             // H1
             // 
@@ -125,9 +120,9 @@
             H1.Font = new Font("Arial Rounded MT Bold", 22F);
             H1.Location = new Point(597, 177);
             H1.Name = "H1";
-            H1.Size = new Size(137, 34);
+            H1.Size = new Size(243, 34);
             H1.TabIndex = 14;
-            H1.Text = "Projects";
+            H1.Text = "Remove Rooms";
             // 
             // logout
             // 
@@ -136,7 +131,7 @@
             logout.Font = new Font("Arial Rounded MT Bold", 10.75F);
             logout.LinkBehavior = LinkBehavior.NeverUnderline;
             logout.LinkColor = Color.Black;
-            logout.Location = new Point(606, 521);
+            logout.Location = new Point(993, 534);
             logout.Name = "logout";
             logout.Size = new Size(147, 133);
             logout.TabIndex = 35;
@@ -149,32 +144,46 @@
             label1.AutoSize = true;
             label1.BackColor = Color.AliceBlue;
             label1.Font = new Font("Arial Rounded MT Bold", 35.25F);
-            label1.Location = new Point(644, 552);
+            label1.Location = new Point(1033, 566);
             label1.Name = "label1";
             label1.Size = new Size(63, 54);
             label1.TabIndex = 37;
             label1.Text = "⬅";
             // 
-            // ShowProjects
+            // removeButton
+            // 
+            removeButton.BackColor = Color.AliceBlue;
+            removeButton.FlatStyle = FlatStyle.Flat;
+            removeButton.Font = new Font("Arial Rounded MT Bold", 10F);
+            removeButton.Location = new Point(621, 534);
+            removeButton.Name = "removeButton";
+            removeButton.Size = new Size(151, 37);
+            removeButton.TabIndex = 38;
+            removeButton.Text = "Remove Room";
+            removeButton.UseVisualStyleBackColor = false;
+            removeButton.Click += removeButton_Click;
+            // 
+            // RemoveFacultyRoom
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(1350, 729);
+            Controls.Add(removeButton);
             Controls.Add(label1);
             Controls.Add(logout);
             Controls.Add(H1);
-            Controls.Add(projects);
+            Controls.Add(dataGridViewFacultyRoomAllocations);
             Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(panel2);
-            Name = "ShowProjects";
-            Text = "ShowCourses";
+            Name = "RemoveFacultyRoom";
+            Text = "Show Faculty Projects";
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)projects).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewFacultyRoomAllocations).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -187,9 +196,10 @@
         private PictureBox pictureBox2;
         private Panel panel1;
         private Panel panel3;
-        private DataGridView projects;
+        private DataGridView dataGridViewFacultyRoomAllocations;
         private Label H1;
         private LinkLabel logout;
         private Label label1;
+        private Button removeButton;
     }
 }
