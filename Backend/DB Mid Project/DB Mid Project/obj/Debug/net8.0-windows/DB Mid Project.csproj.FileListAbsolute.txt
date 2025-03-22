@@ -206,3 +206,16 @@ C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-wi
 C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyCoursesManagement.resources
 C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveFacultyCourse.resources
 C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ViewAssignedFacultyCourses.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.sourcelink.json
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AssignProjectToFaculty.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyProjectManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowFacultyProjects.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveFacultyProjects.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AllocateRoomToFaculty.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyRoomManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowFacultyRooms.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveFacultyRoom.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AssignAdminRoleToFaculty.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyAdminRoleManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ViewFacultyAdminRoles.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveFacultyAdminRoles.resources
