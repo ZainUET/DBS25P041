@@ -1,0 +1,243 @@
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.exe
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.deps.json
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.runtimeconfig.json
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.GenerateResource.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfoInputs.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfo.cs
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.CoreCompileInputs.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\refint\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.genruntimeconfig.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\ref\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.forgotPassword.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Login.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Register.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Properties.Resources.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.DepartmentHead.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project..resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.AdmStaff.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.FacultyManagement.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.FacultyMember.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.WorkloadAssignment.resources
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.AssemblyReference.cache
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid P.CA866A07.Up2Date
+C:\Users\zain8\Desktop\DB without Guna\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Dashboard.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.exe
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.deps.json
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.runtimeconfig.json
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.AssemblyReference.cache
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project..resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Properties.Resources.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.AdmStaff.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Dashboard.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.DepartmentHead.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.FacultyManagement.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.FacultyMember.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.forgotPassword.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Login.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Register.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.WorkloadAssignment.resources
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.GenerateResource.cache
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfoInputs.cache
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfo.cs
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.CoreCompileInputs.cache
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid P.CA866A07.Up2Date
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\refint\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.genruntimeconfig.cache
+C:\Users\zain8\Desktop\DB Mid project\Frontend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\ref\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.exe
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.deps.json
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.runtimeconfig.json
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.AssemblyReference.cache
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project..resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Properties.Resources.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.AdmStaff.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Dashboard.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.DepartmentHead.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.FacultyManagement.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.FacultyMember.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.forgotPassword.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Login.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Register.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.WorkloadAssignment.resources
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.GenerateResource.cache
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfoInputs.cache
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfo.cs
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.CoreCompileInputs.cache
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid P.CA866A07.Up2Date
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\refint\DB Mid Project.dll
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.genruntimeconfig.cache
+C:\Users\zain8\Desktop\DB Mid project\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\ref\DB Mid Project.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.exe
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.deps.json
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.runtimeconfig.json
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.AssemblyReference.cache
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project..resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Properties.Resources.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.FacultyManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.forgotPassword.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Login.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.Register.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.GenerateResource.cache
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfoInputs.cache
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.AssemblyInfo.cs
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.csproj.CoreCompileInputs.cache
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid P.CA866A07.Up2Date
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\refint\DB Mid Project.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.pdb
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.genruntimeconfig.cache
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\ref\DB Mid Project.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.CourseManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyManagementAdd.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyManagementRemove.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyManagementUpdate.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyManagementShow.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AdministrativeStaffDashboard.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.DepartmentHeadDashborad.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyMembersDashboard.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AddCourse.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveCourse.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.UpdateCourse.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowCourses.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RoomManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AddRoom.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveRoom.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowRooms.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.UpdateRoom.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AddProject.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ProjectManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.UpdateProject.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveProject.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowProjects.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AddConsumables.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RequestConsumables.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowRequests.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ApproveRejectRequests.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FulfilledRequest.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AddSemester.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.SemesterManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveSemester.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.UpdateSemester.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowSemesters.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AssignFacultyCourse.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyCoursesManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveFacultyCourse.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ViewAssignedFacultyCourses.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB Mid Project.sourcelink.json
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AssignProjectToFaculty.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyProjectManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowFacultyProjects.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveFacultyProjects.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AllocateRoomToFaculty.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyRoomManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ShowFacultyRooms.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveFacultyRoom.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.AssignAdminRoleToFaculty.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyAdminRoleManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ViewFacultyAdminRoles.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveFacultyAdminRoles.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.FacultyCourseScheduleManagement.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ScheduleCourseForFaculty.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.RemoveFacultyCourseSchedules.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.ViewFacultyCourseSchedules.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\obj\Debug\net8.0-windows\DB_Mid_Project.UI.Reports.resources
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\DocumentFormat.OpenXml.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\EPPlus.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\EPPlus.Interfaces.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\EPPlus.System.Drawing.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\OfficeOpenXmlEasy.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\zain8\Desktop\Backend\DB Mid Project\DB Mid Project\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

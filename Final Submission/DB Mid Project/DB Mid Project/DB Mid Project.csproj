@@ -1,0 +1,126 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>DB_Mid_Project</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="EPPlus" Version="7.7.0" />
+    <PackageReference Include="jcoliz.OpenOfficeXml.Serializer" Version="1.0.3" />
+    <PackageReference Include="MySql.Data" Version="9.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UI\AddSemester.cs" />
+    <Compile Update="UI\ScheduleCourseForFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\AssignAdminRoleToFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\AllocateRoomToFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\AssignProjectToFaculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FacultyCourseScheduleManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FacultyAdminRoleManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FacultyRoomManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FacultyProjectManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RemoveFacultyRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RemoveFacultyProjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RemoveFacultyAdminRoles.cs" />
+    <Compile Update="UI\RemoveFacultyCourseSchedules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ViewFacultyCourseSchedules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ViewFacultyAdminRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ShowFacultyRooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ShowFacultyProjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ViewAssignedFacultyCourses.cs" />
+    <Compile Update="UI\RemoveFacultyCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FacultyCoursesManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\AssignFacultyCourse.cs" />
+    <Compile Update="UI\RemoveSemester.cs" />
+    <Compile Update="UI\SemesterManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\FullfilledRequests.cs" />
+    <Compile Update="UI\ShowSemesters.cs" />
+    <Compile Update="UI\ShowRequests.cs" />
+    <Compile Update="UI\ApproveRejectRequests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RequestConsumable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\RemoveProject .cs" />
+    <Compile Update="UI\AddConsumable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ShowProjects.cs" />
+    <Compile Update="UI\UpdateProject.cs" />
+    <Compile Update="UI\AddProject.cs" />
+    <Compile Update="UI\ProjectManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ShowRooms.cs" />
+    <Compile Update="UI\UpdateSemester.cs" />
+    <Compile Update="UI\UpdateRoom.cs" />
+    <Compile Update="UI\AddRoom.cs" />
+    <Compile Update="UI\RemoveRoom.cs" />
+    <Compile Update="UI\RoomManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\Faculty Management.cs" />
+    <Compile Update="UI\Login.cs" />
+    <Compile Update="UI\ForgotPassword.cs" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
